@@ -1,0 +1,39 @@
+ul li {
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:hover {
+    background: #eae0d5;
+}
+
+ul li.checked {
+    background: #b1a7a6;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+#error {
+    color: red;
+    font-size: smaller;
+}
+
+.remove {
+    position: absolute;
+    right: 0;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-right: .3em;
+    transition: .3s;
+    border-radius: 30%;
+    color: white;
+}
+
+.remove:hover {
+    background-color: #22333b;
+}
